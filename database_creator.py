@@ -1,11 +1,9 @@
 import sqlite3
 
 class DatabaseCreator:
-    def create_database(self):
+    def create_database(self, connection, cursor):
         try:
             # Create/Connect the database
-            cursor = connection.cursor()
-
             cursor.execute("""
                 CREATE TABLE addresses(
                     forename text NOT NULL,
@@ -22,11 +20,8 @@ class DatabaseCreator:
             """)
 
             connection.commit()
-            connection.close()
             print("Database Created")
 
         except Exception as e:
             print("The database could not be created.")
             print(f"Error Message: {e}")
-
-DatabaseCreator().create_database()
