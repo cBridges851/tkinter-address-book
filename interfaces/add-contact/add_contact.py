@@ -31,8 +31,8 @@ class AddContact:
             "Email Address": None
         }
 
-
         row_count = 1
+
         for label in fields.keys():
             current_label = Label(self.root, text=f"{label}:", font=("Helvatica 14"), pady=5)
             current_label.grid(row=row_count, column=1)
