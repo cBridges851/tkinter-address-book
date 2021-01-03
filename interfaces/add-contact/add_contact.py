@@ -42,9 +42,7 @@ class AddContact:
             current_entry.grid(row=row_count, column=2)
 
             row_count += 1
-
+        
         submit_button = Button(self.root, text="ADD", font=("Helvatica 14 bold"), bg="green", fg="#FFFFFF")
         submit_button.grid(row=row_count + 1, column=1, columnspan=2)
         self.root.mainloop()
-
-AddContact().render()
