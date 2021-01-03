@@ -48,5 +48,3 @@ class SearchContact:
         search_button.grid(row=1, column=4)
 
         self.root.mainloop()
-
-SearchContact().render()
