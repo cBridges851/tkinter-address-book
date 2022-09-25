@@ -6,5 +6,3 @@ This project was to help me get more comfortable with Tkinter while I was learni
 
 ## Tech/Framework Used
 As indicated by the name of the repository, this project uses Tkinter, which is a GUI framework in Python. This also uses a SQL database to store the contacts.
-
-This project is on hold at the moment, so I will provide more information on this README when I pick this project up again and it's complete!
